@@ -1,0 +1,68 @@
+import type { GalleryItem } from '../types';
+
+export const GALLERY_DATA: GalleryItem[] = [
+  {
+    id: 'g-prop-1',
+    title: 'Shubham Regency Exterior Elevation',
+    category: 'Property',
+    image: '/src/assets/shubham-building.jpg',
+    caption: 'Official night facade view of Shubham Regency showcasing our architectural landmark.',
+    isPlaceholderImage: false,
+  },
+  {
+    id: 'g-rest-1',
+    title: 'Dine-In Restaurant Ambiance',
+    category: 'Restaurant',
+    image: '/assets/placeholders/gallery-restaurant-1.jpg',
+    caption: 'Sophisticated dining hall layout for family meals and celebratory dinners.',
+    isPlaceholderImage: true,
+  },
+  {
+    id: 'g-food-1',
+    title: 'Signature Culinary Delights',
+    category: 'Food',
+    image: '/assets/placeholders/gallery-food-1.jpg',
+    caption: 'Artisanal dishes prepared by our master culinary team.',
+    isPlaceholderImage: true,
+  },
+  {
+    id: 'g-banq-1',
+    title: 'Banquet Hall Ceremony Setup',
+    category: 'Banquet',
+    image: '/assets/placeholders/gallery-banquet-1.jpg',
+    caption: 'Elegant event space configured for grand wedding receptions and private events.',
+    isPlaceholderImage: true,
+  },
+  {
+    id: 'g-room-1',
+    title: 'Executive Deluxe Suite Interior',
+    category: 'Rooms',
+    image: '/assets/placeholders/gallery-room-1.jpg',
+    caption: 'Peaceful room accommodations equipped with modern luxury amenities.',
+    isPlaceholderImage: true,
+  },
+  {
+    id: 'g-food-2',
+    title: 'Authentic Indian Flavours',
+    category: 'Food',
+    image: '/assets/placeholders/gallery-food-2.jpg',
+    caption: 'Freshly prepared biryanis, curries, and tandoori specialties.',
+    isPlaceholderImage: true,
+  },
+  {
+    id: 'g-banq-2',
+    title: 'Corporate Conference Arrangement',
+    category: 'Banquet',
+    image: '/assets/placeholders/gallery-banquet-2.jpg',
+    caption: 'Professional seminar and banquet configuration with AV support.',
+    isPlaceholderImage: true,
+  },
+  {
+    id: 'g-prop-2',
+    title: 'Grand Entrance & Reception Lobby',
+    category: 'Property',
+    image: '/assets/placeholders/gallery-lobby-1.jpg',
+    caption: 'Warm reception lounge welcoming guests to Shubham Regency.',
+    isPlaceholderImage: true,
+  },
+];
